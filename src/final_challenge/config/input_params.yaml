@@ -1,0 +1,8 @@
+#wave form
+type : 1
+#frecuency
+frequency : 2.0
+#time offset
+offset : 0.0
+#wave amplitude
+amplitude : 0.5

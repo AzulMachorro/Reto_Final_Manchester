@@ -1,0 +1,39 @@
+[0.630s] Invoking command in '/home/angel/ros2_ws/src/basic_comms': PYTHONPATH=/home/angel/ros2_ws/build/basic_comms/prefix_override:/home/angel/ros2_ws/install/basic_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/basic_comms build --build-base /home/angel/ros2_ws/build/basic_comms/build install --record /home/angel/ros2_ws/build/basic_comms/install.log --single-version-externally-managed
+[0.827s] running egg_info
+[0.828s] creating ../../build/basic_comms/basic_comms.egg-info
+[0.828s] writing ../../build/basic_comms/basic_comms.egg-info/PKG-INFO
+[0.828s] writing dependency_links to ../../build/basic_comms/basic_comms.egg-info/dependency_links.txt
+[0.829s] writing entry points to ../../build/basic_comms/basic_comms.egg-info/entry_points.txt
+[0.829s] writing requirements to ../../build/basic_comms/basic_comms.egg-info/requires.txt
+[0.829s] writing top-level names to ../../build/basic_comms/basic_comms.egg-info/top_level.txt
+[0.829s] writing manifest file '../../build/basic_comms/basic_comms.egg-info/SOURCES.txt'
+[0.830s] reading manifest file '../../build/basic_comms/basic_comms.egg-info/SOURCES.txt'
+[0.831s] writing manifest file '../../build/basic_comms/basic_comms.egg-info/SOURCES.txt'
+[0.831s] running build
+[0.831s] running build_py
+[0.831s] creating /home/angel/ros2_ws/build/basic_comms/build
+[0.831s] creating /home/angel/ros2_ws/build/basic_comms/build/lib
+[0.831s] creating /home/angel/ros2_ws/build/basic_comms/build/lib/basic_comms
+[0.831s] copying basic_comms/talker.py -> /home/angel/ros2_ws/build/basic_comms/build/lib/basic_comms
+[0.831s] copying basic_comms/__init__.py -> /home/angel/ros2_ws/build/basic_comms/build/lib/basic_comms
+[0.832s] running install
+[0.832s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.832s]   warnings.warn(
+[0.833s] running install_lib
+[0.833s] creating /home/angel/ros2_ws/install/basic_comms/lib/python3.10/site-packages/basic_comms
+[0.834s] copying /home/angel/ros2_ws/build/basic_comms/build/lib/basic_comms/talker.py -> /home/angel/ros2_ws/install/basic_comms/lib/python3.10/site-packages/basic_comms
+[0.834s] copying /home/angel/ros2_ws/build/basic_comms/build/lib/basic_comms/__init__.py -> /home/angel/ros2_ws/install/basic_comms/lib/python3.10/site-packages/basic_comms
+[0.834s] byte-compiling /home/angel/ros2_ws/install/basic_comms/lib/python3.10/site-packages/basic_comms/talker.py to talker.cpython-310.pyc
+[0.834s] byte-compiling /home/angel/ros2_ws/install/basic_comms/lib/python3.10/site-packages/basic_comms/__init__.py to __init__.cpython-310.pyc
+[0.835s] running install_data
+[0.836s] creating /home/angel/ros2_ws/install/basic_comms/share/ament_index
+[0.836s] creating /home/angel/ros2_ws/install/basic_comms/share/ament_index/resource_index
+[0.836s] creating /home/angel/ros2_ws/install/basic_comms/share/ament_index/resource_index/packages
+[0.836s] copying resource/basic_comms -> /home/angel/ros2_ws/install/basic_comms/share/ament_index/resource_index/packages
+[0.836s] copying package.xml -> /home/angel/ros2_ws/install/basic_comms/share/basic_comms
+[0.836s] running install_egg_info
+[0.838s] Copying ../../build/basic_comms/basic_comms.egg-info to /home/angel/ros2_ws/install/basic_comms/lib/python3.10/site-packages/basic_comms-0.0.0-py3.10.egg-info
+[0.839s] running install_scripts
+[0.859s] Installing talker script to /home/angel/ros2_ws/install/basic_comms/lib/basic_comms
+[0.859s] writing list of installed files to '/home/angel/ros2_ws/build/basic_comms/install.log'
+[0.897s] Invoked command in '/home/angel/ros2_ws/src/basic_comms' returned '0': PYTHONPATH=/home/angel/ros2_ws/build/basic_comms/prefix_override:/home/angel/ros2_ws/install/basic_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/basic_comms build --build-base /home/angel/ros2_ws/build/basic_comms/build install --record /home/angel/ros2_ws/build/basic_comms/install.log --single-version-externally-managed

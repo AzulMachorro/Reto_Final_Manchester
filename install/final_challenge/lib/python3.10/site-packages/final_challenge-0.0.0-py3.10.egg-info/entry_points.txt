@@ -1,0 +1,3 @@
+[console_scripts]
+Setpoint = final_challenge.Setpoint:main
+

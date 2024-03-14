@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/sphere_msgs/sphere_msgs.egg-info
+writing ../../build/sphere_msgs/sphere_msgs.egg-info/PKG-INFO
+writing dependency_links to ../../build/sphere_msgs/sphere_msgs.egg-info/dependency_links.txt
+writing entry points to ../../build/sphere_msgs/sphere_msgs.egg-info/entry_points.txt
+writing requirements to ../../build/sphere_msgs/sphere_msgs.egg-info/requires.txt
+writing top-level names to ../../build/sphere_msgs/sphere_msgs.egg-info/top_level.txt
+writing manifest file '../../build/sphere_msgs/sphere_msgs.egg-info/SOURCES.txt'
+reading manifest file '../../build/sphere_msgs/sphere_msgs.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/sphere_msgs/sphere_msgs.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/eleazar/ros2_ws/build/sphere_msgs/build
+creating /home/eleazar/ros2_ws/build/sphere_msgs/build/lib
+creating /home/eleazar/ros2_ws/build/sphere_msgs/build/lib/sphere_msgs
+copying sphere_msgs/sphere_node.py -> /home/eleazar/ros2_ws/build/sphere_msgs/build/lib/sphere_msgs
+copying sphere_msgs/__init__.py -> /home/eleazar/ros2_ws/build/sphere_msgs/build/lib/sphere_msgs
+running install
+running install_lib
+creating /home/eleazar/ros2_ws/install/sphere_msgs/lib/python3.10/site-packages/sphere_msgs
+copying /home/eleazar/ros2_ws/build/sphere_msgs/build/lib/sphere_msgs/sphere_node.py -> /home/eleazar/ros2_ws/install/sphere_msgs/lib/python3.10/site-packages/sphere_msgs
+copying /home/eleazar/ros2_ws/build/sphere_msgs/build/lib/sphere_msgs/__init__.py -> /home/eleazar/ros2_ws/install/sphere_msgs/lib/python3.10/site-packages/sphere_msgs
+byte-compiling /home/eleazar/ros2_ws/install/sphere_msgs/lib/python3.10/site-packages/sphere_msgs/sphere_node.py to sphere_node.cpython-310.pyc
+byte-compiling /home/eleazar/ros2_ws/install/sphere_msgs/lib/python3.10/site-packages/sphere_msgs/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/eleazar/ros2_ws/install/sphere_msgs/share/ament_index
+creating /home/eleazar/ros2_ws/install/sphere_msgs/share/ament_index/resource_index
+creating /home/eleazar/ros2_ws/install/sphere_msgs/share/ament_index/resource_index/packages
+copying resource/sphere_msgs -> /home/eleazar/ros2_ws/install/sphere_msgs/share/ament_index/resource_index/packages
+copying package.xml -> /home/eleazar/ros2_ws/install/sphere_msgs/share/sphere_msgs
+running install_egg_info
+Copying ../../build/sphere_msgs/sphere_msgs.egg-info to /home/eleazar/ros2_ws/install/sphere_msgs/lib/python3.10/site-packages/sphere_msgs-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sphere_node script to /home/eleazar/ros2_ws/install/sphere_msgs/lib/sphere_msgs
+writing list of installed files to '/home/eleazar/ros2_ws/build/sphere_msgs/install.log'

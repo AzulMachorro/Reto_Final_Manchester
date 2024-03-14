@@ -1,0 +1,26 @@
+[0.695s] Invoking command in '/home/angel/ros2_ws/src/basic_comms': PYTHONPATH=/home/angel/ros2_ws/build/basic_comms/prefix_override:/home/angel/ros2_ws/install/basic_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/basic_comms build --build-base /home/angel/ros2_ws/build/basic_comms/build install --record /home/angel/ros2_ws/build/basic_comms/install.log --single-version-externally-managed
+[0.890s] running egg_info
+[0.890s] writing ../../build/basic_comms/basic_comms.egg-info/PKG-INFO
+[0.890s] writing dependency_links to ../../build/basic_comms/basic_comms.egg-info/dependency_links.txt
+[0.890s] writing entry points to ../../build/basic_comms/basic_comms.egg-info/entry_points.txt
+[0.891s] writing requirements to ../../build/basic_comms/basic_comms.egg-info/requires.txt
+[0.891s] writing top-level names to ../../build/basic_comms/basic_comms.egg-info/top_level.txt
+[0.892s] reading manifest file '../../build/basic_comms/basic_comms.egg-info/SOURCES.txt'
+[0.893s] writing manifest file '../../build/basic_comms/basic_comms.egg-info/SOURCES.txt'
+[0.893s] running build
+[0.893s] running build_py
+[0.894s] copying basic_comms/talker.py -> /home/angel/ros2_ws/build/basic_comms/build/lib/basic_comms
+[0.894s] running install
+[0.894s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.894s]   warnings.warn(
+[0.894s] running install_lib
+[0.895s] copying /home/angel/ros2_ws/build/basic_comms/build/lib/basic_comms/talker.py -> /home/angel/ros2_ws/install/basic_comms/lib/python3.10/site-packages/basic_comms
+[0.895s] byte-compiling /home/angel/ros2_ws/install/basic_comms/lib/python3.10/site-packages/basic_comms/talker.py to talker.cpython-310.pyc
+[0.896s] running install_data
+[0.896s] running install_egg_info
+[0.898s] removing '/home/angel/ros2_ws/install/basic_comms/lib/python3.10/site-packages/basic_comms-0.0.0-py3.10.egg-info' (and everything under it)
+[0.899s] Copying ../../build/basic_comms/basic_comms.egg-info to /home/angel/ros2_ws/install/basic_comms/lib/python3.10/site-packages/basic_comms-0.0.0-py3.10.egg-info
+[0.899s] running install_scripts
+[0.918s] Installing talker script to /home/angel/ros2_ws/install/basic_comms/lib/basic_comms
+[0.919s] writing list of installed files to '/home/angel/ros2_ws/build/basic_comms/install.log'
+[0.955s] Invoked command in '/home/angel/ros2_ws/src/basic_comms' returned '0': PYTHONPATH=/home/angel/ros2_ws/build/basic_comms/prefix_override:/home/angel/ros2_ws/install/basic_comms/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/basic_comms build --build-base /home/angel/ros2_ws/build/basic_comms/build install --record /home/angel/ros2_ws/build/basic_comms/install.log --single-version-externally-managed

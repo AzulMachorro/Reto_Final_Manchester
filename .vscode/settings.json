@@ -1,0 +1,13 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/eleazar/ros2_ws/install/sphere_msgs/lib/python3.10/site-packages",
+        "/home/eleazar/ros2_ws/install/msgs_clase/local/lib/python3.10/dist-packages",
+        "/home/eleazar/ros2_ws/install/final_challenge/lib/python3.10/site-packages",
+        "/home/eleazar/ros2_ws/install/courseworks/lib/python3.10/site-packages",
+        "/home/eleazar/ros2_ws/install/basic_comms_params/lib/python3.10/site-packages",
+        "/home/eleazar/ros2_ws/install/basic_comms/lib/python3.10/site-packages",
+        "/home/eleazar/ros2_utilities_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

@@ -1,0 +1,40 @@
+[0.593s] Invoking command in '/home/eleazar/ros2_ws/src/sphere_msgs': PYTHONPATH=/home/eleazar/ros2_ws/build/sphere_msgs/prefix_override:/home/eleazar/ros2_ws/install/sphere_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sphere_msgs build --build-base /home/eleazar/ros2_ws/build/sphere_msgs/build install --record /home/eleazar/ros2_ws/build/sphere_msgs/install.log --single-version-externally-managed
+[0.721s] running egg_info
+[0.721s] creating ../../build/sphere_msgs/sphere_msgs.egg-info
+[0.721s] writing ../../build/sphere_msgs/sphere_msgs.egg-info/PKG-INFO
+[0.721s] writing dependency_links to ../../build/sphere_msgs/sphere_msgs.egg-info/dependency_links.txt
+[0.721s] writing entry points to ../../build/sphere_msgs/sphere_msgs.egg-info/entry_points.txt
+[0.721s] writing requirements to ../../build/sphere_msgs/sphere_msgs.egg-info/requires.txt
+[0.721s] writing top-level names to ../../build/sphere_msgs/sphere_msgs.egg-info/top_level.txt
+[0.722s] writing manifest file '../../build/sphere_msgs/sphere_msgs.egg-info/SOURCES.txt'
+[0.723s] reading manifest file '../../build/sphere_msgs/sphere_msgs.egg-info/SOURCES.txt'
+[0.723s] adding license file 'LICENSE'
+[0.723s] writing manifest file '../../build/sphere_msgs/sphere_msgs.egg-info/SOURCES.txt'
+[0.723s] running build
+[0.723s] running build_py
+[0.723s] creating /home/eleazar/ros2_ws/build/sphere_msgs/build
+[0.723s] creating /home/eleazar/ros2_ws/build/sphere_msgs/build/lib
+[0.724s] creating /home/eleazar/ros2_ws/build/sphere_msgs/build/lib/sphere_msgs
+[0.724s] copying sphere_msgs/sphere_node.py -> /home/eleazar/ros2_ws/build/sphere_msgs/build/lib/sphere_msgs
+[0.724s] copying sphere_msgs/__init__.py -> /home/eleazar/ros2_ws/build/sphere_msgs/build/lib/sphere_msgs
+[0.724s] running install
+[0.724s] running install_lib
+[0.724s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.724s]   warnings.warn(
+[0.724s] creating /home/eleazar/ros2_ws/install/sphere_msgs/lib/python3.10/site-packages/sphere_msgs
+[0.724s] copying /home/eleazar/ros2_ws/build/sphere_msgs/build/lib/sphere_msgs/sphere_node.py -> /home/eleazar/ros2_ws/install/sphere_msgs/lib/python3.10/site-packages/sphere_msgs
+[0.724s] copying /home/eleazar/ros2_ws/build/sphere_msgs/build/lib/sphere_msgs/__init__.py -> /home/eleazar/ros2_ws/install/sphere_msgs/lib/python3.10/site-packages/sphere_msgs
+[0.725s] byte-compiling /home/eleazar/ros2_ws/install/sphere_msgs/lib/python3.10/site-packages/sphere_msgs/sphere_node.py to sphere_node.cpython-310.pyc
+[0.725s] byte-compiling /home/eleazar/ros2_ws/install/sphere_msgs/lib/python3.10/site-packages/sphere_msgs/__init__.py to __init__.cpython-310.pyc
+[0.725s] running install_data
+[0.726s] creating /home/eleazar/ros2_ws/install/sphere_msgs/share/ament_index
+[0.726s] creating /home/eleazar/ros2_ws/install/sphere_msgs/share/ament_index/resource_index
+[0.726s] creating /home/eleazar/ros2_ws/install/sphere_msgs/share/ament_index/resource_index/packages
+[0.726s] copying resource/sphere_msgs -> /home/eleazar/ros2_ws/install/sphere_msgs/share/ament_index/resource_index/packages
+[0.726s] copying package.xml -> /home/eleazar/ros2_ws/install/sphere_msgs/share/sphere_msgs
+[0.726s] running install_egg_info
+[0.727s] Copying ../../build/sphere_msgs/sphere_msgs.egg-info to /home/eleazar/ros2_ws/install/sphere_msgs/lib/python3.10/site-packages/sphere_msgs-0.0.0-py3.10.egg-info
+[0.727s] running install_scripts
+[0.742s] Installing sphere_node script to /home/eleazar/ros2_ws/install/sphere_msgs/lib/sphere_msgs
+[0.742s] writing list of installed files to '/home/eleazar/ros2_ws/build/sphere_msgs/install.log'
+[0.758s] Invoked command in '/home/eleazar/ros2_ws/src/sphere_msgs' returned '0': PYTHONPATH=/home/eleazar/ros2_ws/build/sphere_msgs/prefix_override:/home/eleazar/ros2_ws/install/sphere_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sphere_msgs build --build-base /home/eleazar/ros2_ws/build/sphere_msgs/build install --record /home/eleazar/ros2_ws/build/sphere_msgs/install.log --single-version-externally-managed

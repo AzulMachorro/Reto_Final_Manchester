@@ -1,0 +1,115 @@
+[0.396s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/eleazar/ros2_ws']
+[0.396s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/eleazar/ros2_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75a10d5511e0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x75a10d599300>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x75a10d599300>>)
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.421s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.421s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/eleazar/ros2_ws'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws) by extension 'ros'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws) by extensions ['cmake', 'python']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws) by extension 'cmake'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws) by extension 'python'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws) by extensions ['python_setup_py']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws) by extension 'python_setup_py'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/build) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/build) ignored
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/install) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/install) ignored
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/log) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/log) ignored
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src) by extension 'ignore_ament_install'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src) by extensions ['colcon_pkg']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src) by extension 'colcon_pkg'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src) by extensions ['colcon_meta']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src) by extension 'colcon_meta'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src) by extensions ['ros']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src) by extension 'ros'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src) by extensions ['cmake', 'python']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src) by extension 'cmake'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src) by extension 'python'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src) by extensions ['python_setup_py']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src) by extension 'python_setup_py'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/basic_comms) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/basic_comms) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/basic_comms) by extension 'ignore_ament_install'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/basic_comms) by extensions ['colcon_pkg']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/basic_comms) by extension 'colcon_pkg'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/basic_comms) by extensions ['colcon_meta']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/basic_comms) by extension 'colcon_meta'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/basic_comms) by extensions ['ros']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/basic_comms) by extension 'ros'
+[0.432s] DEBUG:colcon.colcon_core.package_identification:Package '/home/eleazar/ros2_ws/src/basic_comms' with type 'ros.ament_python' and name 'basic_comms'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/basic_comms_params) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/basic_comms_params) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/basic_comms_params) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/basic_comms_params) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/basic_comms_params) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/basic_comms_params) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/basic_comms_params) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/basic_comms_params) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/basic_comms_params) by extension 'ros'
+[0.432s] DEBUG:colcon.colcon_core.package_identification:Package '/home/eleazar/ros2_ws/src/basic_comms_params' with type 'ros.ament_python' and name 'basic_comms_params'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/build) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/build) ignored
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/courseworks) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/courseworks) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/courseworks) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/courseworks) by extensions ['colcon_pkg']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/courseworks) by extension 'colcon_pkg'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/courseworks) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/courseworks) by extension 'colcon_meta'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/courseworks) by extensions ['ros']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/courseworks) by extension 'ros'
+[0.433s] DEBUG:colcon.colcon_core.package_identification:Package '/home/eleazar/ros2_ws/src/courseworks' with type 'ros.ament_python' and name 'courseworks'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/final_challenge) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/final_challenge) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/final_challenge) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/final_challenge) by extensions ['colcon_pkg']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/final_challenge) by extension 'colcon_pkg'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/final_challenge) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/final_challenge) by extension 'colcon_meta'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/final_challenge) by extensions ['ros']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/final_challenge) by extension 'ros'
+[0.434s] DEBUG:colcon.colcon_core.package_identification:Package '/home/eleazar/ros2_ws/src/final_challenge' with type 'ros.ament_python' and name 'final_challenge'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/install) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/install) ignored
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/log) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/log) ignored
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/msgs_clase) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/msgs_clase) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/msgs_clase) by extension 'ignore_ament_install'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/msgs_clase) by extensions ['colcon_pkg']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/msgs_clase) by extension 'colcon_pkg'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/msgs_clase) by extensions ['colcon_meta']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/msgs_clase) by extension 'colcon_meta'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/msgs_clase) by extensions ['ros']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/msgs_clase) by extension 'ros'
+[0.435s] DEBUG:colcon.colcon_core.package_identification:Package '/home/eleazar/ros2_ws/src/msgs_clase' with type 'ros.ament_cmake' and name 'msgs_clase'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/sphere_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/sphere_msgs) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/sphere_msgs) by extension 'ignore_ament_install'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/sphere_msgs) by extensions ['colcon_pkg']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/sphere_msgs) by extension 'colcon_pkg'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/sphere_msgs) by extensions ['colcon_meta']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/sphere_msgs) by extension 'colcon_meta'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/sphere_msgs) by extensions ['ros']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(/home/eleazar/ros2_ws/src/sphere_msgs) by extension 'ros'
+[0.435s] DEBUG:colcon.colcon_core.package_identification:Package '/home/eleazar/ros2_ws/src/sphere_msgs' with type 'ros.ament_python' and name 'sphere_msgs'
+[0.435s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

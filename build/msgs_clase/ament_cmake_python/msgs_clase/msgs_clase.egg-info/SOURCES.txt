@@ -1,0 +1,8 @@
+setup.py
+msgs_clase/__init__.py
+msgs_clase.egg-info/PKG-INFO
+msgs_clase.egg-info/SOURCES.txt
+msgs_clase.egg-info/dependency_links.txt
+msgs_clase.egg-info/top_level.txt
+msgs_clase/msg/__init__.py
+msgs_clase/msg/_sphere.py

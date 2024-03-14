@@ -1,0 +1,25 @@
+[0.816s] Invoking command in '/home/eleazar/ros2_ws/src/courseworks': PYTHONPATH=/home/eleazar/ros2_ws/build/courseworks/prefix_override:/home/eleazar/ros2_ws/install/courseworks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/courseworks build --build-base /home/eleazar/ros2_ws/build/courseworks/build install --record /home/eleazar/ros2_ws/build/courseworks/install.log --single-version-externally-managed
+[0.979s] running egg_info
+[0.979s] writing ../../build/courseworks/courseworks.egg-info/PKG-INFO
+[0.980s] writing dependency_links to ../../build/courseworks/courseworks.egg-info/dependency_links.txt
+[0.980s] writing entry points to ../../build/courseworks/courseworks.egg-info/entry_points.txt
+[0.980s] writing requirements to ../../build/courseworks/courseworks.egg-info/requires.txt
+[0.980s] writing top-level names to ../../build/courseworks/courseworks.egg-info/top_level.txt
+[0.981s] reading manifest file '../../build/courseworks/courseworks.egg-info/SOURCES.txt'
+[0.981s] adding license file 'LICENSE'
+[0.982s] writing manifest file '../../build/courseworks/courseworks.egg-info/SOURCES.txt'
+[0.982s] running build
+[0.982s] running build_py
+[0.982s] running install
+[0.982s] running install_lib
+[0.982s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.982s]   warnings.warn(
+[0.983s] running install_data
+[0.983s] running install_egg_info
+[0.984s] removing '/home/eleazar/ros2_ws/install/courseworks/lib/python3.10/site-packages/courseworks-0.0.0-py3.10.egg-info' (and everything under it)
+[0.985s] Copying ../../build/courseworks/courseworks.egg-info to /home/eleazar/ros2_ws/install/courseworks/lib/python3.10/site-packages/courseworks-0.0.0-py3.10.egg-info
+[0.986s] running install_scripts
+[1.006s] Installing process script to /home/eleazar/ros2_ws/install/courseworks/lib/courseworks
+[1.007s] Installing signal_generator script to /home/eleazar/ros2_ws/install/courseworks/lib/courseworks
+[1.007s] writing list of installed files to '/home/eleazar/ros2_ws/build/courseworks/install.log'
+[1.028s] Invoked command in '/home/eleazar/ros2_ws/src/courseworks' returned '0': PYTHONPATH=/home/eleazar/ros2_ws/build/courseworks/prefix_override:/home/eleazar/ros2_ws/install/courseworks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/courseworks build --build-base /home/eleazar/ros2_ws/build/courseworks/build install --record /home/eleazar/ros2_ws/build/courseworks/install.log --single-version-externally-managed

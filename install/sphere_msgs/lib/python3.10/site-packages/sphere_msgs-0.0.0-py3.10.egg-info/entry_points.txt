@@ -1,0 +1,3 @@
+[console_scripts]
+sphere_node = sphere_msgs.sphere_node:main
+

@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/eleazar/ros2_ws/install/msgs_clase/include/**",
+        "/home/eleazar/ros2_utilities_ws/install/micro_ros_agent/include/**",
+        "/home/eleazar/ros2_utilities_ws/install/micro_ros_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/eleazar/ros2_ws/src/msgs_clase/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

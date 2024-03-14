@@ -1,0 +1,26 @@
+[1.112s] Invoking command in '/home/eleazar/ros2_ws/src/final_challenge': PYTHONPATH=/home/eleazar/ros2_ws/build/final_challenge/prefix_override:/home/eleazar/ros2_ws/install/final_challenge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/final_challenge build --build-base /home/eleazar/ros2_ws/build/final_challenge/build install --record /home/eleazar/ros2_ws/build/final_challenge/install.log --single-version-externally-managed
+[1.290s] running egg_info
+[1.290s] writing ../../build/final_challenge/final_challenge.egg-info/PKG-INFO
+[1.291s] writing dependency_links to ../../build/final_challenge/final_challenge.egg-info/dependency_links.txt
+[1.291s] writing entry points to ../../build/final_challenge/final_challenge.egg-info/entry_points.txt
+[1.291s] writing requirements to ../../build/final_challenge/final_challenge.egg-info/requires.txt
+[1.291s] writing top-level names to ../../build/final_challenge/final_challenge.egg-info/top_level.txt
+[1.294s] reading manifest file '../../build/final_challenge/final_challenge.egg-info/SOURCES.txt'
+[1.294s] writing manifest file '../../build/final_challenge/final_challenge.egg-info/SOURCES.txt'
+[1.295s] running build
+[1.295s] running build_py
+[1.295s] copying final_challenge/Setpoint.py -> /home/eleazar/ros2_ws/build/final_challenge/build/lib/final_challenge
+[1.295s] running install
+[1.295s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.295s]   warnings.warn(
+[1.295s] running install_lib
+[1.296s] copying /home/eleazar/ros2_ws/build/final_challenge/build/lib/final_challenge/Setpoint.py -> /home/eleazar/ros2_ws/install/final_challenge/lib/python3.10/site-packages/final_challenge
+[1.296s] byte-compiling /home/eleazar/ros2_ws/install/final_challenge/lib/python3.10/site-packages/final_challenge/Setpoint.py to Setpoint.cpython-310.pyc
+[1.296s] running install_data
+[1.296s] running install_egg_info
+[1.298s] removing '/home/eleazar/ros2_ws/install/final_challenge/lib/python3.10/site-packages/final_challenge-0.0.0-py3.10.egg-info' (and everything under it)
+[1.298s] Copying ../../build/final_challenge/final_challenge.egg-info to /home/eleazar/ros2_ws/install/final_challenge/lib/python3.10/site-packages/final_challenge-0.0.0-py3.10.egg-info
+[1.298s] running install_scripts
+[1.319s] Installing Setpoint script to /home/eleazar/ros2_ws/install/final_challenge/lib/final_challenge
+[1.319s] writing list of installed files to '/home/eleazar/ros2_ws/build/final_challenge/install.log'
+[1.362s] Invoked command in '/home/eleazar/ros2_ws/src/final_challenge' returned '0': PYTHONPATH=/home/eleazar/ros2_ws/build/final_challenge/prefix_override:/home/eleazar/ros2_ws/install/final_challenge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/final_challenge build --build-base /home/eleazar/ros2_ws/build/final_challenge/build install --record /home/eleazar/ros2_ws/build/final_challenge/install.log --single-version-externally-managed
